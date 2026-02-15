@@ -14,12 +14,11 @@ import java.util.UUID;
 public class RefreshTokenService {
 
 
-    private final RefreshTokenService refreshTokenService;
+
     private final UserRepository userRepository;
     private final RefreshTokenRepository refreshTokenRepository;
 
-    public RefreshTokenService(RefreshTokenService refreshTokenService, UserRepository userRepository, RefreshTokenRepository refreshTokenRepository) {
-        this.refreshTokenService = refreshTokenService;
+    public RefreshTokenService(UserRepository userRepository, RefreshTokenRepository refreshTokenRepository) {
         this.userRepository = userRepository;
         this.refreshTokenRepository = refreshTokenRepository;
     }
