@@ -4,16 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/authService1" />
-        <option name="gradleJvm" value="25" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/authService1" />
-            <option value="$PROJECT_DIR$/authService1/app" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/userService" />
         <option name="gradleJvm" value="25" />
         <option name="modules">
