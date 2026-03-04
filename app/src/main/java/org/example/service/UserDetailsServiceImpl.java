@@ -2,6 +2,7 @@ package org.example.service;
 
 import lombok.Data;
 import org.example.entities.UserInfo;
+import org.example.eventProducer.UserInfoProducer;
 import org.example.models.UserInfoDto;
 import org.example.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,9 +10,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
-import javax.swing.text.html.Option;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Optional;
@@ -23,10 +21,12 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+    private final UserInfoProducer userInfoProducer;
 
-    public UserDetailsServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder) {
+    public UserDetailsServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder,UserInfoProducer userInfoProducer) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
+        this.userInfoProducer= userInfoProducer;
     }
 
     @Override
@@ -52,6 +52,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         UserInfo userInfo = new UserInfo(userId,userInfoDto.getUsername(),userInfoDto.getPassword(),new HashSet<>());
 
         userRepository.save(userInfo);
+
+        userInfoProducer.sendEventToKafka(userInfoDto);
         return  userId;
 
     }

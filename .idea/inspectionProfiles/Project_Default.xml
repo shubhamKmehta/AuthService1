@@ -1482,7 +1482,9 @@
     <inspection_tool class="ReplaceWithJavadoc" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="ReplaceWithOperatorAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="ReplaceWithStringBuilderAppendRange" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myAdditionalRequiredHtmlAttributes" value="" />
+    </inspection_tool>
     <inspection_tool class="RequiredBeanTypeInspection" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="RestResourceMethodInspection" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="RestWrongDefaultValueInspection" enabled="true" level="ERROR" enabled_by_default="true" />
