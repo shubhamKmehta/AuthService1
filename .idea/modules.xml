@@ -6,7 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AuthService1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AuthService1.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AuthService1.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AuthService1.app.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Expenses.AuthService1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Expenses.AuthService1.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authService1.AuthService1.iml" filepath="$PROJECT_DIR$/.idea/modules/authService1.AuthService1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userService.iml" filepath="$PROJECT_DIR$/.idea/modules/userService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/userService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/userService.test.iml" filepath="$PROJECT_DIR$/.idea/modules/userService.test.iml" />
     </modules>
   </component>
 </project>

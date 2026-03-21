@@ -4,49 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e232071-8183-4c8e-bdaf-f253e1aed65e" name="Changes" comment="added serialization and deserialization in kafka">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/entities/UserInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/expenses.iml" beforeDir="false" />
+    <list default="true" id="7e232071-8183-4c8e-bdaf-f253e1aed65e" name="Changes" comment="adding userService">
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/config/UserConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/consumer/AuthServiceConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/deserializer/UserInfoDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/respository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/auth/JwtAuthFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/auth/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/auth/UserConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/controller/TokenController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/entities/RefreshToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/entities/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/entities/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/eventProducer/UserInfoProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/models/UserInfoDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/repository/RefreshTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/request/AuthRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/request/RefreshTokenRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/response/JwtResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/serializer/UserInfoSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/service/CustomUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/service/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/service/RefreshTokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/service/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/authService1.AuthService1.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/example/entities/UserInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/example/entities/UserInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +22,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/authService1">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/userService">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
@@ -115,41 +83,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Build Expenses.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.App.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Shubham/Desktop/expenses",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build Expenses.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shubham/Desktop/expenses&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.App">
+}</component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="authService1.AuthService1.app.main" />
+      <module name="authService1.AuthService1.app.main~1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-24" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="userService.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -184,7 +160,13 @@
       <workItem from="1772548356381" duration="8849000" />
       <workItem from="1772599501240" duration="5729000" />
       <workItem from="1772645838773" duration="2291000" />
-      <workItem from="1772651373665" duration="1076000" />
+      <workItem from="1772651373665" duration="1868000" />
+      <workItem from="1772721386614" duration="3481000" />
+      <workItem from="1773165657213" duration="1548000" />
+      <workItem from="1773324523666" duration="6138000" />
+      <workItem from="1773726142053" duration="8293000" />
+      <workItem from="1773891274462" duration="632000" />
+      <workItem from="1773893127422" duration="6819000" />
     </task>
     <task id="LOCAL-00001" summary="adding token method in jwtSerive.">
       <option name="closed" value="true" />
@@ -226,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772651494923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding userService">
+      <option name="closed" value="true" />
+      <created>1772652511641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772652511642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -247,7 +237,8 @@
     <MESSAGE value="added repo file and token security" />
     <MESSAGE value="all codes are updated and tested" />
     <MESSAGE value="added serialization and deserialization in kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="added serialization and deserialization in kafka" />
+    <MESSAGE value="adding userService" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding userService" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
